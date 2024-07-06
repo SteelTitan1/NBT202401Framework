@@ -44,7 +44,7 @@ public class LoginPageTest extends BaseTest {
 	}
 	@Test
 	public void loginTest() {
-		loginPage.doLogin("sazzad123@gmail.com", "abc123");
+		loginPage.doLogin("qatestertest@gmail.com","Test@123");
 		
 	}
 

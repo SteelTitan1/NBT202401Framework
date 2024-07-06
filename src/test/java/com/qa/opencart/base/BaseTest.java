@@ -18,11 +18,13 @@ public class BaseTest {
 	//different package can access that
 	protected LoginPage loginPage; 
 	
+	
 	@BeforeTest
 	public void setup() {
 		df=new DriverFactory(); 
 		driver= df.initDriver("chrome");
 		loginPage = new LoginPage(driver);
+	
 		
 	}
 	@AfterTest

@@ -36,7 +36,7 @@ public class DriverFactory {
 		//below steps are   
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
-		driver.get("https://demo.opencart.com/index.php?route=account/login&language=en-gb");
+		driver.get("https://naveenautomationlabs.com/opencart/index.php?route=account/login");
 		return driver; 
 		
 		

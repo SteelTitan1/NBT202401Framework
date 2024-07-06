@@ -8,7 +8,7 @@ public class LoginPage {
 	private WebDriver driver; 
 	
 	
-	//Page object model design patter: 
+	//Page object model design pattern: 
 	//1. private By locators:
 	private By emailID=By.id("input-email"); 
 	private By pass=By.id("input-password"); 
@@ -46,6 +46,9 @@ public class LoginPage {
 		driver.findElement(emailID).sendKeys(userName);
 		driver.findElement(pass).sendKeys(pwd);
 		driver.findElement(loginBtn).click();
+		//this below step is TDD approach where previous page methods are 
+		//returning next page object
+	
 		
 		
 	}
